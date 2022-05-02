@@ -1,25 +1,33 @@
 # Election_Analysis
 
 ## Project Overview
-An election audit of a congressional election in Colorado
-  1. Calculate the total number of votes cast.
-  2. Get a complete list of canddiates who received votes.
-  3. Calculate the total number of votes each candidate received.
-  4. Caulculate the percentage of votes each candiate won.
-  5. Determine the winner of th election based on popular vote. 
+An election audit by county of a congressional election in Colorado
+  1. Calculate the voter turnout of each county.
+  2. Calculate the percentage of votes from each county. 
+  3. Determine the county with the largest voter turnout.
 
 ## Resources
   Data Souce: election_results.csv
   Software: Python 3.9.7, Visual Studio Code, 1.66.2
 
-## Summary
-The analysis of the election show that:
-  - There were 369,711 votes cast in the election.
-  - The candidates and their results were:
-    - Charles Casper Stockham: 23.0% (85,213)
-    - Diana DeGette: 73.8% (272,892)
-    - Raymon Anthony Doane: 3.1% (11,606)
-  - The winner of the election was:
-    - Diana DeGette. 
+## Election-Audit Results   
+- How many votes were cast in this congressional election?
+    369,711 votes were cast in this congressional election
+
+- Provide a breakdown of the number of votes and the percentage of total votes for  each county in the precinct.
+    Jefferson: 10.5% (38,855)
+    Denver: 82.8% (306,055)
+    Arapahoe: 6.7% (24,801)
+
+- Which county had the largest number of votes?
+    Denver had the largest number of votes.
+
+- Provide a breakdown of the number of votes and the percentage of the total votes each candidate received. 
+    Charles Casper Stockham: 23.0% (85,213)
+    Diana DeGette: 73.8% (272,892)
+    Raymon Anthony Doane: 3.1% (11,606)
+
+- Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+    Diana DeGette won the election with 272,892 votes and 73.8% of the total votes.
 
 
